@@ -1,0 +1,17 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin B. Greene<hightimesteddy@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}
