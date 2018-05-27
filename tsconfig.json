@@ -6,7 +6,8 @@
         "pretty": true,
         "removeComments": true,
         "rootDir": "./src",
-        "outDir": "./build"
+        "outDir": "./build",
+        "strict": true
     },
     "exclude": [
         "node_modules"
